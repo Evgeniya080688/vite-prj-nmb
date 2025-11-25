@@ -5,6 +5,7 @@ import { ViteImageOptimizer } from "vite-plugin-image-optimizer";
 
 const FRONT_PATH = 'src';
 
+
 export default defineConfig({
     base: "/vite-prj-nmb/",
     root: 'src',
