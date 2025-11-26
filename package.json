@@ -4,9 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --mode dev",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview --mode staging",
+    "prod": "vite --mode prod",
+    "staging": "vite build --mode staging"
+    
   },
   "devDependencies": {
     "sass": "^1.94.2",
